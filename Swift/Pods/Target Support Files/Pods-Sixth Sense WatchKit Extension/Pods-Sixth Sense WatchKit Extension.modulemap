@@ -1,0 +1,6 @@
+framework module Pods_Sixth_Sense_WatchKit_Extension {
+  umbrella header "Pods-Sixth Sense WatchKit Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

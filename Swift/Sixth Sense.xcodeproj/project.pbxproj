@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89C0E6F888EDBA05FE76F2F3 /* Pods_Sixth_Sense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFB1CE58BACB69BD89C9592 /* Pods_Sixth_Sense.framework */; };
+		BE8D73D624149564001A9F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D73D524149564001A9F34 /* AppDelegate.swift */; };
+		BE8D73D824149564001A9F34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D73D724149564001A9F34 /* SceneDelegate.swift */; };
+		BE8D73DA24149564001A9F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D73D924149564001A9F34 /* ViewController.swift */; };
+		BE8D73DD24149564001A9F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8D73DB24149564001A9F34 /* Main.storyboard */; };
+		BE8D73DF24149565001A9F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8D73DE24149565001A9F34 /* Assets.xcassets */; };
+		BE8D73E224149565001A9F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8D73E024149565001A9F34 /* LaunchScreen.storyboard */; };
+		BE8D73E724149565001A9F34 /* Sixth Sense WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BE8D73E624149565001A9F34 /* Sixth Sense WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE8D73ED24149565001A9F34 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8D73EB24149565001A9F34 /* Interface.storyboard */; };
+		BE8D73EF24149565001A9F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8D73EE24149565001A9F34 /* Assets.xcassets */; };
+		BE8D73F624149566001A9F34 /* Sixth Sense WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE8D73F524149566001A9F34 /* Sixth Sense WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE8D73FB24149566001A9F34 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D73FA24149566001A9F34 /* InterfaceController.swift */; };
+		BE8D73FD24149566001A9F34 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D73FC24149566001A9F34 /* ExtensionDelegate.swift */; };
+		BE8D73FF24149566001A9F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8D73FE24149566001A9F34 /* Assets.xcassets */; };
+		CE94B9F81A833AA4E4F1BE93 /* Pods_Sixth_Sense_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E19275A6236ADAA6B65DFAA /* Pods_Sixth_Sense_WatchKit_Extension.framework */; };
+		D9220F551618B9CA97C786B8 /* Pods_Sixth_Sense_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E7F86D02660E67D1381270 /* Pods_Sixth_Sense_WatchKit_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE8D73E824149565001A9F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE8D73CA24149564001A9F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE8D73E524149565001A9F34;
+			remoteInfo = "Sixth Sense WatchKit App";
+		};
+		BE8D73F724149566001A9F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE8D73CA24149564001A9F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE8D73F424149565001A9F34;
+			remoteInfo = "Sixth Sense WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE8D740624149566001A9F34 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BE8D73F624149566001A9F34 /* Sixth Sense WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8D740A24149566001A9F34 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BE8D73E724149565001A9F34 /* Sixth Sense WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		178CC915E2F8634C6EA78ECA /* Pods-Sixth Sense WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sixth Sense WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Sixth Sense WatchKit App/Pods-Sixth Sense WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		1ECEBD2C8A85559E8D454828 /* Pods-Sixth Sense WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sixth Sense WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Sixth Sense WatchKit Extension/Pods-Sixth Sense WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2FFB1CE58BACB69BD89C9592 /* Pods_Sixth_Sense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sixth_Sense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E19275A6236ADAA6B65DFAA /* Pods_Sixth_Sense_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sixth_Sense_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FFC92269C1F722A9534984 /* Pods-Sixth Sense WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sixth Sense WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Sixth Sense WatchKit Extension/Pods-Sixth Sense WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		93E7F86D02660E67D1381270 /* Pods_Sixth_Sense_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sixth_Sense_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CB8C95DE42E945BF1C505D /* Pods-Sixth Sense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sixth Sense.release.xcconfig"; path = "Target Support Files/Pods-Sixth Sense/Pods-Sixth Sense.release.xcconfig"; sourceTree = "<group>"; };
+		BE8D73D224149564001A9F34 /* Sixth Sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sixth Sense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D73D524149564001A9F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE8D73D724149564001A9F34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE8D73D924149564001A9F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE8D73DC24149564001A9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE8D73DE24149565001A9F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8D73E124149565001A9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE8D73E324149565001A9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8D73E624149565001A9F34 /* Sixth Sense WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sixth Sense WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D73EC24149565001A9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BE8D73EE24149565001A9F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8D73F024149565001A9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8D73F524149566001A9F34 /* Sixth Sense WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sixth Sense WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D73FA24149566001A9F34 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BE8D73FC24149566001A9F34 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BE8D73FE24149566001A9F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8D740024149566001A9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA6D5658D93B37295B15AF8 /* Pods-Sixth Sense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sixth Sense.debug.xcconfig"; path = "Target Support Files/Pods-Sixth Sense/Pods-Sixth Sense.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D68586EBBA0DBF3EB89FEF /* Pods-Sixth Sense WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sixth Sense WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Sixth Sense WatchKit App/Pods-Sixth Sense WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E9F849667E0FD9DBEE43D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9220F551618B9CA97C786B8 /* Pods_Sixth_Sense_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8D73CF24149564001A9F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C0E6F888EDBA05FE76F2F3 /* Pods_Sixth_Sense.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8D73F224149565001A9F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE94B9F81A833AA4E4F1BE93 /* Pods_Sixth_Sense_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8D73C924149564001A9F34 = {
+			isa = PBXGroup;
+			children = (
+				BE8D73D424149564001A9F34 /* Sixth Sense */,
+				BE8D73EA24149565001A9F34 /* Sixth Sense WatchKit App */,
+				BE8D73F924149566001A9F34 /* Sixth Sense WatchKit Extension */,
+				BE8D73D324149564001A9F34 /* Products */,
+				D612F8460BB66E9B157F4C4D /* Pods */,
+				E2768372D3160594072B7820 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8D73D324149564001A9F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D73D224149564001A9F34 /* Sixth Sense.app */,
+				BE8D73E624149565001A9F34 /* Sixth Sense WatchKit App.app */,
+				BE8D73F524149566001A9F34 /* Sixth Sense WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8D73D424149564001A9F34 /* Sixth Sense */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D73D524149564001A9F34 /* AppDelegate.swift */,
+				BE8D73D724149564001A9F34 /* SceneDelegate.swift */,
+				BE8D73D924149564001A9F34 /* ViewController.swift */,
+				BE8D73DB24149564001A9F34 /* Main.storyboard */,
+				BE8D73DE24149565001A9F34 /* Assets.xcassets */,
+				BE8D73E024149565001A9F34 /* LaunchScreen.storyboard */,
+				BE8D73E324149565001A9F34 /* Info.plist */,
+			);
+			path = "Sixth Sense";
+			sourceTree = "<group>";
+		};
+		BE8D73EA24149565001A9F34 /* Sixth Sense WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D73EB24149565001A9F34 /* Interface.storyboard */,
+				BE8D73EE24149565001A9F34 /* Assets.xcassets */,
+				BE8D73F024149565001A9F34 /* Info.plist */,
+			);
+			path = "Sixth Sense WatchKit App";
+			sourceTree = "<group>";
+		};
+		BE8D73F924149566001A9F34 /* Sixth Sense WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D73FA24149566001A9F34 /* InterfaceController.swift */,
+				BE8D73FC24149566001A9F34 /* ExtensionDelegate.swift */,
+				BE8D73FE24149566001A9F34 /* Assets.xcassets */,
+				BE8D740024149566001A9F34 /* Info.plist */,
+			);
+			path = "Sixth Sense WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D612F8460BB66E9B157F4C4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6D5658D93B37295B15AF8 /* Pods-Sixth Sense.debug.xcconfig */,
+				B3CB8C95DE42E945BF1C505D /* Pods-Sixth Sense.release.xcconfig */,
+				E5D68586EBBA0DBF3EB89FEF /* Pods-Sixth Sense WatchKit App.debug.xcconfig */,
+				178CC915E2F8634C6EA78ECA /* Pods-Sixth Sense WatchKit App.release.xcconfig */,
+				42FFC92269C1F722A9534984 /* Pods-Sixth Sense WatchKit Extension.debug.xcconfig */,
+				1ECEBD2C8A85559E8D454828 /* Pods-Sixth Sense WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2768372D3160594072B7820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FFB1CE58BACB69BD89C9592 /* Pods_Sixth_Sense.framework */,
+				93E7F86D02660E67D1381270 /* Pods_Sixth_Sense_WatchKit_App.framework */,
+				3E19275A6236ADAA6B65DFAA /* Pods_Sixth_Sense_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8D73D124149564001A9F34 /* Sixth Sense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8D740B24149566001A9F34 /* Build configuration list for PBXNativeTarget "Sixth Sense" */;
+			buildPhases = (
+				7C45C7B17D2C281AEB9F1F67 /* [CP] Check Pods Manifest.lock */,
+				BE8D73CE24149564001A9F34 /* Sources */,
+				BE8D73CF24149564001A9F34 /* Frameworks */,
+				BE8D73D024149564001A9F34 /* Resources */,
+				BE8D740A24149566001A9F34 /* Embed Watch Content */,
+				705636BFA1328BFDAB3AC000 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8D73E924149565001A9F34 /* PBXTargetDependency */,
+			);
+			name = "Sixth Sense";
+			productName = "Sixth Sense";
+			productReference = BE8D73D224149564001A9F34 /* Sixth Sense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE8D73E524149565001A9F34 /* Sixth Sense WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8D740724149566001A9F34 /* Build configuration list for PBXNativeTarget "Sixth Sense WatchKit App" */;
+			buildPhases = (
+				2EF6CE7A79292483A5E9F080 /* [CP] Check Pods Manifest.lock */,
+				BE8D73E424149565001A9F34 /* Resources */,
+				BE8D740624149566001A9F34 /* Embed App Extensions */,
+				35E9F849667E0FD9DBEE43D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8D73F824149566001A9F34 /* PBXTargetDependency */,
+			);
+			name = "Sixth Sense WatchKit App";
+			productName = "Sixth Sense WatchKit App";
+			productReference = BE8D73E624149565001A9F34 /* Sixth Sense WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BE8D73F424149565001A9F34 /* Sixth Sense WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8D740324149566001A9F34 /* Build configuration list for PBXNativeTarget "Sixth Sense WatchKit Extension" */;
+			buildPhases = (
+				7D1CB9469E9ABFC3005A7DCD /* [CP] Check Pods Manifest.lock */,
+				BE8D73F124149565001A9F34 /* Sources */,
+				BE8D73F224149565001A9F34 /* Frameworks */,
+				BE8D73F324149565001A9F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sixth Sense WatchKit Extension";
+			productName = "Sixth Sense WatchKit Extension";
+			productReference = BE8D73F524149566001A9F34 /* Sixth Sense WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8D73CA24149564001A9F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Golden Age Technologies LLC";
+				TargetAttributes = {
+					BE8D73D124149564001A9F34 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BE8D73E524149565001A9F34 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BE8D73F424149565001A9F34 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BE8D73CD24149564001A9F34 /* Build configuration list for PBXProject "Sixth Sense" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8D73C924149564001A9F34;
+			productRefGroup = BE8D73D324149564001A9F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8D73D124149564001A9F34 /* Sixth Sense */,
+				BE8D73E524149565001A9F34 /* Sixth Sense WatchKit App */,
+				BE8D73F424149565001A9F34 /* Sixth Sense WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8D73D024149564001A9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D73E224149565001A9F34 /* LaunchScreen.storyboard in Resources */,
+				BE8D73DF24149565001A9F34 /* Assets.xcassets in Resources */,
+				BE8D73DD24149564001A9F34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8D73E424149565001A9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D73EF24149565001A9F34 /* Assets.xcassets in Resources */,
+				BE8D73ED24149565001A9F34 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8D73F324149565001A9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D73FF24149566001A9F34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF6CE7A79292483A5E9F080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sixth Sense WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		705636BFA1328BFDAB3AC000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sixth Sense/Pods-Sixth Sense-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sixth Sense/Pods-Sixth Sense-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sixth Sense/Pods-Sixth Sense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C45C7B17D2C281AEB9F1F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sixth Sense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1CB9469E9ABFC3005A7DCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sixth Sense WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8D73CE24149564001A9F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D73DA24149564001A9F34 /* ViewController.swift in Sources */,
+				BE8D73D624149564001A9F34 /* AppDelegate.swift in Sources */,
+				BE8D73D824149564001A9F34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8D73F124149565001A9F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D73FD24149566001A9F34 /* ExtensionDelegate.swift in Sources */,
+				BE8D73FB24149566001A9F34 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE8D73E924149565001A9F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE8D73E524149565001A9F34 /* Sixth Sense WatchKit App */;
+			targetProxy = BE8D73E824149565001A9F34 /* PBXContainerItemProxy */;
+		};
+		BE8D73F824149566001A9F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE8D73F424149565001A9F34 /* Sixth Sense WatchKit Extension */;
+			targetProxy = BE8D73F724149566001A9F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE8D73DB24149564001A9F34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8D73DC24149564001A9F34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE8D73E024149565001A9F34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8D73E124149565001A9F34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE8D73EB24149565001A9F34 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8D73EC24149565001A9F34 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE8D740124149566001A9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8D740224149566001A9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8D740424149566001A9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FFC92269C1F722A9534984 /* Pods-Sixth Sense WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3EN3NY4;
+				INFOPLIST_FILE = "Sixth Sense WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.goldenagetechnologies.Sixth-Sense.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		BE8D740524149566001A9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECEBD2C8A85559E8D454828 /* Pods-Sixth Sense WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3EN3NY4;
+				INFOPLIST_FILE = "Sixth Sense WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.goldenagetechnologies.Sixth-Sense.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		BE8D740824149566001A9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D68586EBBA0DBF3EB89FEF /* Pods-Sixth Sense WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3EN3NY4;
+				IBSC_MODULE = Sixth_Sense_WatchKit_Extension;
+				INFOPLIST_FILE = "Sixth Sense WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.goldenagetechnologies.Sixth-Sense.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		BE8D740924149566001A9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178CC915E2F8634C6EA78ECA /* Pods-Sixth Sense WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3EN3NY4;
+				IBSC_MODULE = Sixth_Sense_WatchKit_Extension;
+				INFOPLIST_FILE = "Sixth Sense WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.goldenagetechnologies.Sixth-Sense.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		BE8D740C24149566001A9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA6D5658D93B37295B15AF8 /* Pods-Sixth Sense.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3EN3NY4;
+				INFOPLIST_FILE = "Sixth Sense/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.goldenagetechnologies.Sixth-Sense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE8D740D24149566001A9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CB8C95DE42E945BF1C505D /* Pods-Sixth Sense.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X3EN3NY4;
+				INFOPLIST_FILE = "Sixth Sense/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.goldenagetechnologies.Sixth-Sense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8D73CD24149564001A9F34 /* Build configuration list for PBXProject "Sixth Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D740124149566001A9F34 /* Debug */,
+				BE8D740224149566001A9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8D740324149566001A9F34 /* Build configuration list for PBXNativeTarget "Sixth Sense WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D740424149566001A9F34 /* Debug */,
+				BE8D740524149566001A9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8D740724149566001A9F34 /* Build configuration list for PBXNativeTarget "Sixth Sense WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D740824149566001A9F34 /* Debug */,
+				BE8D740924149566001A9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8D740B24149566001A9F34 /* Build configuration list for PBXNativeTarget "Sixth Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D740C24149566001A9F34 /* Debug */,
+				BE8D740D24149566001A9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8D73CA24149564001A9F34 /* Project object */;
+}
